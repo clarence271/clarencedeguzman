@@ -1,0 +1,116 @@
+<html>
+   <head>
+   <title> Laboratory 6 </title>
+   </head>
+	<style>
+	body{
+	border: 1px solid #cccccc;
+	
+	padding: 16px;
+
+	font-size: 14px;
+
+	font-style: calibri;
+	
+	font-weight: bold;
+	
+	}
+
+	h1{
+	font-style: calibri;
+	}
+
+	.inputformat input{
+
+	width: 100%;
+	
+	padding: 20px;
+	
+	display: inline-block;
+	
+	margin: 8px 0px;
+	
+	border: 1px solid #cccccc;
+	}
+	
+	#signup{
+	text-color: white;
+	
+	padding: 12px;
+	
+	margin: 8px 0px;
+	
+	border: none;
+	
+	width: 50%;
+
+	float: left;
+	
+	background-color: green;
+	}
+	
+	#clear{
+	text-color: white;
+	
+	padding: 12px;
+	
+	margin: 8px 0px;
+	
+	border: none;
+
+	width: 50%;
+	
+	background-color: #f44336
+	}
+	
+	
+	</style>
+   
+	 <center>
+	 
+ 	 <h1> Signup Form </h1>
+	 </center>
+ 
+<body>
+
+<form action="/action_page.php">
+<div class="inputformat">
+  <label for="fname"> First Name: </label><br>
+  <input type="text" placeholder="First Name" fname=required ><br><br>
+    <label for="mname"> Middle Name: </label><br>
+  <input type="text" placeholder="Middle Name" mname=required><br><br>
+    <label for="lname"> Last Name: </label><br>
+  <input type="text" placeholder="Last Name" lname= required><br><br>
+    <label for="uname"> User Name: </label><br>
+  <input type="text" placeholder="User Name" uname=required><br><br>
+    <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd" placeholder="Password" pword=required>
+   <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" placeholder="E-Mail" email=required>
+    <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  </div>
+
+   <input type="radio" id="male" name="gender" value="male">
+    <label for="male"> Male </label><br>
+   <input type="radio" id="female" name="gender" value="female">
+    <label for="female"> Female </label><br><br>
+
+   Civil Status: <select name = "CivilStatus">
+     <option> Single </option>
+     <option> Married </option>
+     <option> Separated </option>
+     <option> Widowed </option>
+  	</select><br><br>
+
+<div id="signup">
+   <input type="submit" value="Submit">
+</div>
+
+<div id="clear">
+      <input type="reset" value="Clear">     
+</div>
+<h4><center><a href ="index.html">Back to main Page</a></center></h4>
+  </form>
+</body>
+</html>

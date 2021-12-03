@@ -1,0 +1,60 @@
+body
+	{
+	background-image: url('background.jpg');
+	background-color:black;
+	text-align:center;
+	}
+	h1
+	{
+	font-family:arial;
+	font-size: 75px;
+	}
+	p
+	{
+	text-align:center;
+	font-size: 25px;
+	}
+	a.one:link
+	{
+	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+	}
+	a.one:visited {color:#0000ff;}
+	a.one:hover {font-size:150%;}
+	a.two:link
+	{
+	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+	}
+	a.two:visited {color:#0000ff;}
+	a.two:hover {font-size:150%;}
+	a.three:link
+	{
+	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+	}
+	a.three:visited {color:#0000ff;}
+	a.three:hover {font-size:150%;}
+	a.five:link
+	{
+	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+	}
+	a.five:visited {color:#0000ff;}
+	a.five:hover {font-size:150%;}
